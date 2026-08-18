@@ -10,6 +10,21 @@
 		A10000000000000000000001 /* ShanghaiActionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ShanghaiActionApp.swift */; };
 		A10000000000000000000002 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* GameScene.swift */; };
 		A10000000000000000000003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* Assets.xcassets */; };
+		A10000000000000000000004 /* shoot.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* shoot.wav */; };
+		A10000000000000000000005 /* zombie_cry.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* zombie_cry.wav */; };
+		A10000000000000000000006 /* explosion.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* explosion.wav */; };
+		A10000000000000000000007 /* shotgun.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* shotgun.wav */; };
+		A10000000000000000000008 /* thompson.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* thompson.wav */; };
+		A10000000000000000000009 /* barrett.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* barrett.wav */; };
+		A10000000000000000000010 /* kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* kick.wav */; };
+		A10000000000000000000011 /* lobby_music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* lobby_music.m4a */; };
+		A10000000000000000000012 /* battle_music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* battle_music.m4a */; };
+		A10000000000000000000013 /* opening_music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* opening_music.m4a */; };
+		A10000000000000000000014 /* battle_street.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* battle_street.m4a */; };
+		A10000000000000000000015 /* battle_water.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* battle_water.m4a */; };
+		A10000000000000000000016 /* battle_mech.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* battle_mech.m4a */; };
+		A10000000000000000000017 /* battle_heroic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* battle_heroic.m4a */; };
+		A10000000000000000000018 /* activity_music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* activity_music.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +33,21 @@
 		A20000000000000000000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20000000000000000000004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20000000000000000000005 /* ShanghaiAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShanghaiAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000006 /* shoot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shoot.wav; sourceTree = "<group>"; };
+		A20000000000000000000007 /* zombie_cry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = zombie_cry.wav; sourceTree = "<group>"; };
+		A20000000000000000000008 /* explosion.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = explosion.wav; sourceTree = "<group>"; };
+		A20000000000000000000009 /* shotgun.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shotgun.wav; sourceTree = "<group>"; };
+		A20000000000000000000010 /* thompson.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thompson.wav; sourceTree = "<group>"; };
+		A20000000000000000000011 /* barrett.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = barrett.wav; sourceTree = "<group>"; };
+		A20000000000000000000012 /* kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = kick.wav; sourceTree = "<group>"; };
+		A20000000000000000000013 /* lobby_music.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = lobby_music.m4a; sourceTree = "<group>"; };
+		A20000000000000000000014 /* battle_music.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = battle_music.m4a; sourceTree = "<group>"; };
+		A20000000000000000000015 /* opening_music.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = opening_music.m4a; sourceTree = "<group>"; };
+		A20000000000000000000016 /* battle_street.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = battle_street.m4a; sourceTree = "<group>"; };
+		A20000000000000000000017 /* battle_water.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = battle_water.m4a; sourceTree = "<group>"; };
+		A20000000000000000000018 /* battle_mech.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = battle_mech.m4a; sourceTree = "<group>"; };
+		A20000000000000000000019 /* battle_heroic.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = battle_heroic.m4a; sourceTree = "<group>"; };
+		A20000000000000000000020 /* activity_music.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = activity_music.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +75,7 @@
 				A20000000000000000000001 /* ShanghaiActionApp.swift */,
 				A20000000000000000000002 /* GameScene.swift */,
 				A20000000000000000000003 /* Assets.xcassets */,
+				A40000000000000000000004 /* Sounds */,
 				A20000000000000000000004 /* Info.plist */,
 			);
 			path = ShanghaiAction;
@@ -56,6 +87,28 @@
 				A20000000000000000000005 /* ShanghaiAction.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A40000000000000000000004 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000006 /* shoot.wav */,
+				A20000000000000000000007 /* zombie_cry.wav */,
+				A20000000000000000000008 /* explosion.wav */,
+				A20000000000000000000009 /* shotgun.wav */,
+				A20000000000000000000010 /* thompson.wav */,
+				A20000000000000000000011 /* barrett.wav */,
+				A20000000000000000000012 /* kick.wav */,
+				A20000000000000000000013 /* lobby_music.m4a */,
+				A20000000000000000000014 /* battle_music.m4a */,
+				A20000000000000000000015 /* opening_music.m4a */,
+				A20000000000000000000016 /* battle_street.m4a */,
+				A20000000000000000000017 /* battle_water.m4a */,
+				A20000000000000000000018 /* battle_mech.m4a */,
+				A20000000000000000000019 /* battle_heroic.m4a */,
+				A20000000000000000000020 /* activity_music.m4a */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +170,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10000000000000000000003 /* Assets.xcassets in Resources */,
+				A10000000000000000000004 /* shoot.wav in Resources */,
+				A10000000000000000000005 /* zombie_cry.wav in Resources */,
+				A10000000000000000000006 /* explosion.wav in Resources */,
+				A10000000000000000000007 /* shotgun.wav in Resources */,
+				A10000000000000000000008 /* thompson.wav in Resources */,
+				A10000000000000000000009 /* barrett.wav in Resources */,
+				A10000000000000000000010 /* kick.wav in Resources */,
+				A10000000000000000000011 /* lobby_music.m4a in Resources */,
+				A10000000000000000000012 /* battle_music.m4a in Resources */,
+				A10000000000000000000013 /* opening_music.m4a in Resources */,
+				A10000000000000000000014 /* battle_street.m4a in Resources */,
+				A10000000000000000000015 /* battle_water.m4a in Resources */,
+				A10000000000000000000016 /* battle_mech.m4a in Resources */,
+				A10000000000000000000017 /* battle_heroic.m4a in Resources */,
+				A10000000000000000000018 /* activity_music.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
